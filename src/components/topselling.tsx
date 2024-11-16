@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 export default function TopSelling() {
   const products = [
@@ -48,7 +49,7 @@ export default function TopSelling() {
         {products.map((product) => (
           <div key={product.id} className="text-center bg-white shadow-md p-4 rounded-md">
             {/* Product Image */}
-            <img
+            <Image
               src={product.image}
               alt={product.name}
               className="w-full h-48 object-cover rounded-md"

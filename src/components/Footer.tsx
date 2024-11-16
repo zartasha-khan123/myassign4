@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="col-span-2 md:col-span-1">
             <h3 className="text-xl font-bold mb-4 text-black">SHOP.CO</h3>
             <p>
-              We have clothes that suit your style and which you're proud to wear. From women to men.
+              We have clothes that suit your style and which you re proud to wear. From women to men.
             </p>
             <div className="flex space-x-4 mt-4">
               <FaFacebookF className="text-black cursor-pointer hover:text-gray" />

@@ -1,4 +1,4 @@
-// // components/Hero.js
+import Image from "next/image";
 export default function Hero() {
     return (
       <section className="flex flex-col md:flex-row items-center justify-between px-6 py-12">
@@ -33,7 +33,7 @@ export default function Hero() {
         </div>
         {/* Image */}
         <div className="mt-8 md:mt-0">
-          <img
+          <Image
             src="/images/Rectangle 2.png"
             alt="Fashion Models"
             className="w-full max-w-sm md:max-w-md rounded-lg"
